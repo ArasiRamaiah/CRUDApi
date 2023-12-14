@@ -17,7 +17,7 @@ namespace CRUDApi.Controllers
         }
 
         // GET api/<ProductController>/5
-        [HttpGet("ProductswithPriceGreaterthan20")]
+        [HttpGet("ProductswithPriceGreaterthan30")]
         public List<Product> ProductswithPriceGreaterthan20()
         {
             List<Product> products = new List<Product>();
